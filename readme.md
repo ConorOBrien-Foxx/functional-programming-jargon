@@ -339,7 +339,7 @@ Lazy evaluation is a call-by-need evaluation mechanism that delays the evaluatio
 
 ```js
 let rand = function*() {
-    while (1 < 2) {
+    while (true) {
         yield Math.random();
     }
 }
